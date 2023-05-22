@@ -1,0 +1,55 @@
+.addForm{
+    color:white;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap:15px;
+    padding:20px;
+}
+
+.subForm{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputField{
+    padding:7px;
+    font-size: 16px;
+    width: max-content;
+}
+
+select{
+    padding: 7px;
+    font-size: 16px;
+  
+}
+
+textarea{
+    padding:7px;
+    font-size: 16px;
+}
+
+
+.button{
+    border:none;
+    border : 1px solid black;
+    border-bottom: 5px solid black ;
+    cursor: pointer;
+    padding:7px;
+    font-weight: 1000;
+    width: 200px;
+    margin:10px auto;
+    color:black;
+}
+
+.headingg{
+    text-align: center;
+    color:black;
+}

@@ -1,0 +1,13 @@
+.profile{
+    width:fit-content;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items:start;
+}
+
+.text{
+    font-size: 20px;
+}

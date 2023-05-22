@@ -1,0 +1,42 @@
+.navbar{
+    background-color: black;
+    color:white;
+    padding:20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+.subNavbar{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.nav-items{
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+
+.menu-full{
+    display: block;
+}
+
+.menu{
+    display: none;
+}
+
+@media  screen and (max-width:600px) {
+    .menu{
+      display: block;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .menu-full{
+      display:none;
+    }
+}
+
